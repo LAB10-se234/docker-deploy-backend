@@ -15,7 +15,9 @@ jobs:
       -
         name: setup java
         uses: actions/checkout
-
+        with:
+          java-version: '16'
+          distributuion: 'adopt'
       -
         name: run maven
         run: |
