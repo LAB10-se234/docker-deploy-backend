@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '16'
-          distributuion: 'adopt'
+          distribution: 'adopt'
       -
         name: run maven
         run: |
