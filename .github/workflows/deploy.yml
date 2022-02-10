@@ -11,10 +11,9 @@ jobs:
       - 
         name: Checkout
         uses: actions/checkout@v2
-
       -
         name: setup java
-        uses: actions/checkout
+        uses: actions/setup-java@v2
         with:
           java-version: '16'
           distributuion: 'adopt'
