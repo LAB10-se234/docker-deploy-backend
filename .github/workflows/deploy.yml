@@ -2,7 +2,7 @@ name: Deploy backend to host
 'on':
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   docker:
