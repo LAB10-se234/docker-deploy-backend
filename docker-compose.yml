@@ -1,6 +1,10 @@
 version: '3.3'
 services:
   backend:
-    image: biggib01/234-deploylab-backend:latest
+    image: dto/234-lab11:latest
     ports:
-      - "8085:8080"
+      - "8100:8080"
+  frontend:
+    image: biggib01/234-deploylab12-backend
+    ports:
+      - "8101:80"
